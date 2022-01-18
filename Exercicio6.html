@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 6 CSS</title>
+    <style>
+      body{
+          background-color: gray;
+      }
+      div{
+        background-color: beige;
+        border-style: solid;
+        border-color: red;
+        color: black;
+        margin-right: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+     h3{
+         color: blue;
+         text-decoration: underline;
+      }
+     ul.produto{
+         list-style-image: url("imagens01/star01.png");
+     }
+     ul.descricao{
+         list-style-image: url("imagens01/check.png");
+     }   
+    </style>
+</head>
+<body>
+    <h3>Lista de compras</h3>
+    <div>
+    <ul class="produto">
+        <li>Café</li>
+        <ul class="descricao">
+          <li>Em Pó</li>
+          <li>Solúvel</li> 
+        </ul>
+    </ul>
+    <ul class="produto">
+       <li>Açúcar</li>
+       <li>Arroz</li>
+       <li>Leite</li>
+       <li>Massa</li>
+       <ul class="descricao">
+           <li>Spaguetti</li>
+           <li>Tagliatelle</li>
+           <li>Vermicelli</li>
+           <li>Maccheron</li>    
+       </ul>
+    </ul>
+    </div>
+</body>
+</html>
